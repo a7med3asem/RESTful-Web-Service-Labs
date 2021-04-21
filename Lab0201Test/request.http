@@ -1,0 +1,40 @@
+GET http://localhost:9191/Lab0201_Test/api/emp/10 HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET http://localhost:9191/Lab0201_Test/api/emp/ HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:9191/Lab0101_Test/api/emp/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Ahmed",
+    "lastName": "Asim"
+  }
+
+###
+
+PUT http://localhost:9191/Lab0101_Test/api/emp/ HTTP/1.1
+Content-Type: application/json
+
+  {
+  "firstName": "Mohamed",
+  "id": 25,
+  "lastName": "Asim",
+}
+
+###
+DELETE http://localhost:9191/Lab0101_Test/api/emp/ HTTP/1.1
+Content-Type: application/json
+
+  {
+  "firstName": "Asim",
+  "id": 22,
+  "lastName": "Asim",
+}
+
+###
